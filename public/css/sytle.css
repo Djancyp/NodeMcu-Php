@@ -1,0 +1,43 @@
+.tempicon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -10px;
+    right: ;
+    z-index: 0;
+    font-size: 50px;
+    color: rgba(0,0,0,0.15);
+}
+.tempimage {
+	position: absolute;
+	top: -120px;
+	left: -3px;
+}
+.progress{
+	border-radius: 50px;
+}
+
+.temptext{
+	position: relative;
+    top: -80px;
+    color: black;
+}
+
+.bimage{
+	background-image: url("../images/background.jpg");
+}
+
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu{
+    padding-right: 5px;
+    text-align: right;
+}
+
+.navbar-custom-menu>.navbar-nav>li{
+    padding-right: 10px;
+}
+@media (max-width: 767px){
+    .skin-blue .main-header .navbar .dropdown-menu li a {
+        color: #000 !important;
+    }
+}

@@ -11,10 +11,10 @@
 
 int pin        = 5;
 
-const char* ssid     = "BTHub4-GH5G";
-const char* password = "da5692dec5";
+const char* ssid     = "wifi ssid";
+const char* password = "password";
 
-const char* host = "192.168.1.155";
+const char* host = "website or localhost ip adress";
 
 
 
